@@ -1,0 +1,66 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31321.278
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LaPOOCSharp", "LaPOOCSharp\LaPOOCSharp.csproj", "{C4D2619D-0664-4366-B285-38EE8F738A1C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "FormationWPF", "FormationWPF", "{849B7244-0D01-43DF-9220-A176EC341EF6}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ClassPartialTest", "ClassPartialTest\ClassPartialTest.csproj", "{5A50E6A3-E1FF-4B50-A0B4-5CF5299F4028}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LesInterfaces", "LesInterfaces\LesInterfaces.csproj", "{225935F2-032D-4335-A7F7-DEAA1BC4CCA6}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LesEnums", "LesEnums\LesEnums.csproj", "{CDA1ED1A-2742-4867-95DA-3207A98CAC87}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LesStructures", "LesStructures\LesStructures.csproj", "{663536AA-83AE-4604-A8C0-F108788D2C09}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BoxingUnboxing", "BoxingUnboxing\BoxingUnboxing.csproj", "{62D61405-14B4-4395-94E4-0A97B2FDDEAD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Heritage", "Heritage\Heritage.csproj", "{2E570126-20E8-4CD1-B6B1-1C604F70B48E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C4D2619D-0664-4366-B285-38EE8F738A1C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C4D2619D-0664-4366-B285-38EE8F738A1C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C4D2619D-0664-4366-B285-38EE8F738A1C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C4D2619D-0664-4366-B285-38EE8F738A1C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5A50E6A3-E1FF-4B50-A0B4-5CF5299F4028}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5A50E6A3-E1FF-4B50-A0B4-5CF5299F4028}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5A50E6A3-E1FF-4B50-A0B4-5CF5299F4028}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5A50E6A3-E1FF-4B50-A0B4-5CF5299F4028}.Release|Any CPU.Build.0 = Release|Any CPU
+		{225935F2-032D-4335-A7F7-DEAA1BC4CCA6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{225935F2-032D-4335-A7F7-DEAA1BC4CCA6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{225935F2-032D-4335-A7F7-DEAA1BC4CCA6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{225935F2-032D-4335-A7F7-DEAA1BC4CCA6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CDA1ED1A-2742-4867-95DA-3207A98CAC87}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CDA1ED1A-2742-4867-95DA-3207A98CAC87}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CDA1ED1A-2742-4867-95DA-3207A98CAC87}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CDA1ED1A-2742-4867-95DA-3207A98CAC87}.Release|Any CPU.Build.0 = Release|Any CPU
+		{663536AA-83AE-4604-A8C0-F108788D2C09}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{663536AA-83AE-4604-A8C0-F108788D2C09}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{663536AA-83AE-4604-A8C0-F108788D2C09}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{663536AA-83AE-4604-A8C0-F108788D2C09}.Release|Any CPU.Build.0 = Release|Any CPU
+		{62D61405-14B4-4395-94E4-0A97B2FDDEAD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{62D61405-14B4-4395-94E4-0A97B2FDDEAD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{62D61405-14B4-4395-94E4-0A97B2FDDEAD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{62D61405-14B4-4395-94E4-0A97B2FDDEAD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2E570126-20E8-4CD1-B6B1-1C604F70B48E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2E570126-20E8-4CD1-B6B1-1C604F70B48E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2E570126-20E8-4CD1-B6B1-1C604F70B48E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2E570126-20E8-4CD1-B6B1-1C604F70B48E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{5A50E6A3-E1FF-4B50-A0B4-5CF5299F4028} = {849B7244-0D01-43DF-9220-A176EC341EF6}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {421F545D-7E4D-481A-9754-62C6BC6B3CAD}
+	EndGlobalSection
+EndGlobal
