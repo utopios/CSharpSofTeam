@@ -16,7 +16,7 @@ namespace Heritage
             EtresVivants[] tab = new EtresVivants[5];
             EtresVivants etre1 = new Chien("Rex", "Caniche");
             EtresVivants etre2 = new Pangolin("Pupuce", "Pangolin D'asie");
-            EtresVivants etre3 = new Vegetal("Cosmos", "Cosmos Sulpureus");
+            EtresVivants etre3 = new Vegetal("Cosmos", "Cosmos Sulphureus");
             EtresVivants etre4 = new Animal("Marguerite", "Vache");
             EtresVivants etre5 = new Mammifere("Flipper", "Dauphin");
             tab[0] = etre1;
@@ -49,7 +49,7 @@ namespace Heritage
                     c.Aboyer();
                 }
 
-                // 2eme solution => Utiliser les mot "as" pour effectuer notre convertion
+                // 2eme solution => Utiliser les mot "as" pour effectuer notre convertion - Essai ou retourne la valeur par defaut
                 Pangolin p = tab[i] as Pangolin;
                 if (p!=null)
                 {
@@ -57,11 +57,10 @@ namespace Heritage
                     if (p.Emmerdant)
                     {
                         Console.WriteLine("J'ai paralisé le monde entier ! ! !");
-
                     }
                 }
 
-                // 3eme solution => En utilisant le mot clé "is" pour effectuer une vérification
+                // 3eme solution => En utilisant le mot clé "is" pour effectuer une vérification - Test si possible et effectue la convertion
                 if (tab[i] is Vegetal v)
                 {
                     Console.WriteLine(v);

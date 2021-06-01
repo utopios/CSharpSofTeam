@@ -17,7 +17,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LesStructures", "LesStructu
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BoxingUnboxing", "BoxingUnboxing\BoxingUnboxing.csproj", "{62D61405-14B4-4395-94E4-0A97B2FDDEAD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Heritage", "Heritage\Heritage.csproj", "{2E570126-20E8-4CD1-B6B1-1C604F70B48E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Heritage", "Heritage\Heritage.csproj", "{2E570126-20E8-4CD1-B6B1-1C604F70B48E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExceptionRegex", "ExceptionRegex\ExceptionRegex.csproj", "{F1F25CAE-AF2E-4A7E-B243-13DE6A473E15}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LesGenerics", "LesGenerics\LesGenerics.csproj", "{7E642802-230D-4D42-A1CE-41A992416D09}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -53,6 +57,14 @@ Global
 		{2E570126-20E8-4CD1-B6B1-1C604F70B48E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2E570126-20E8-4CD1-B6B1-1C604F70B48E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2E570126-20E8-4CD1-B6B1-1C604F70B48E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F1F25CAE-AF2E-4A7E-B243-13DE6A473E15}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F1F25CAE-AF2E-4A7E-B243-13DE6A473E15}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F1F25CAE-AF2E-4A7E-B243-13DE6A473E15}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F1F25CAE-AF2E-4A7E-B243-13DE6A473E15}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7E642802-230D-4D42-A1CE-41A992416D09}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7E642802-230D-4D42-A1CE-41A992416D09}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7E642802-230D-4D42-A1CE-41A992416D09}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7E642802-230D-4D42-A1CE-41A992416D09}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
