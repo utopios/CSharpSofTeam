@@ -65,13 +65,21 @@ namespace TpCompteBancaireHeritage.Classes
         {
             MySqlConnection connection = DataBase.Connection;
             MySqlCommand command = new MySqlCommand("INSERT INTO clientBanque (nom,prenom,telephone)" +
-                " OUTPUT INSERTED.ID VALUES (@Nom, @Prenom, @Telephone)", connection);
-            command.Parameters.Add(new MySqlParameter("@Nom", MySqlDbType.VarChar) { Value = Nom });
-            command.Parameters.Add(new MySqlParameter("@Prenom", MySqlDbType.VarChar) { Value = Prenom });
-            command.Parameters.Add(new MySqlParameter("@Telephone", MySqlDbType.VarChar) { Value = Telephone });
-
+                " VALUES (@Nom, @Prenom, @Telephone)", connection);
+            command.Parameters.Add(new MySqlParameter("@Nom",  Nom ));
+            command.Parameters.Add(new MySqlParameter("@Prenom", Prenom ));
+            command.Parameters.Add(new MySqlParameter("@Telephone", Telephone ));
             connection.Open();
-            Id = (int)command.ExecuteScalar();
+            command.ExecuteNonQuery();
+            command.Dispose();
+            command = new MySqlCommand("SELECT LAST_INSERT_ID() FROM clientBanque", connection);
+            MySqlDataReader reader = command.ExecuteReader();
+            while (reader.Read())
+            {
+                Id = reader.GetInt32(0);
+            }
+            
+            reader.Close();
             command.Dispose();
             connection.Close();
             return Id;

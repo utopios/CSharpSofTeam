@@ -1,4 +1,5 @@
 ﻿using System;
+using TpCompteBancaireHeritage.IHM;
 
 namespace TpCompteBancaireHeritage
 {
@@ -6,7 +7,7 @@ namespace TpCompteBancaireHeritage
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            new IHMBanque().Start();
         }
     }
 }

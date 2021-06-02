@@ -19,23 +19,30 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BoxingUnboxing", "BoxingUnb
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Heritage", "Heritage\Heritage.csproj", "{2E570126-20E8-4CD1-B6B1-1C604F70B48E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExceptionRegex", "ExceptionRegex\ExceptionRegex.csproj", "{F1F25CAE-AF2E-4A7E-B243-13DE6A473E15}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ExceptionRegex", "ExceptionRegex\ExceptionRegex.csproj", "{F1F25CAE-AF2E-4A7E-B243-13DE6A473E15}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LesGenerics", "LesGenerics\LesGenerics.csproj", "{7E642802-230D-4D42-A1CE-41A992416D09}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LesGenerics", "LesGenerics\LesGenerics.csproj", "{7E642802-230D-4D42-A1CE-41A992416D09}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LesDeleguesLambdaExpression", "LesDelegues\LesDeleguesLambdaExpression.csproj", "{777B913B-59A6-47B3-98CA-9FFD2A6E3937}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LesDeleguesLambdaExpression", "LesDelegues\LesDeleguesLambdaExpression.csproj", "{777B913B-59A6-47B3-98CA-9FFD2A6E3937}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LesExtentionsMethode", "LesExtentionsMethode\LesExtentionsMethode.csproj", "{DFD95BC5-00E8-4CEE-BB4E-DA185D8FA3ED}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LesExtentionsMethode", "LesExtentionsMethode\LesExtentionsMethode.csproj", "{DFD95BC5-00E8-4CEE-BB4E-DA185D8FA3ED}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LesTuples", "LesTuples\LesTuples.csproj", "{74869845-14D6-4454-9877-D31E1874D0D4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LesTuples", "LesTuples\LesTuples.csproj", "{74869845-14D6-4454-9877-D31E1874D0D4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LesDeconstructeur", "LesDeconstructeur\LesDeconstructeur.csproj", "{1CB87C8F-2371-4290-9960-E40E969C5AD4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LesDeconstructeur", "LesDeconstructeur\LesDeconstructeur.csproj", "{1CB87C8F-2371-4290-9960-E40E969C5AD4}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "AdoNet", "AdoNet", "{923C2A28-BF34-4FCE-A199-135A3D044C8D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CoursAdoNET", "CoursAdoNET\CoursAdoNET.csproj", "{8E5357DA-21E9-4ACE-BBE2-CC928571D031}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CoursAdoNET", "CoursAdoNET\CoursAdoNET.csproj", "{8E5357DA-21E9-4ACE-BBE2-CC928571D031}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TpCompteBancaireHeritage", "TpCompteBancaireHeritage\TpCompteBancaireHeritage.csproj", "{073B5CA2-8760-4A7B-899C-7803C16C5F11}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TpCompteBancaireHeritage", "TpCompteBancaireHeritage\TpCompteBancaireHeritage.csproj", "{073B5CA2-8760-4A7B-899C-7803C16C5F11}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SupportsFormationPDF", "SupportsFormationPDF", "{2C60AB4A-705B-4271-AE02-65FE032784C4}"
+	ProjectSection(SolutionItems) = preProject
+		SupportFormationPDF\Introduction_au_langage_C#.pdf = SupportFormationPDF\Introduction_au_langage_C#.pdf
+		SupportFormationPDF\Introduction_Framework_DotNet.pdf = SupportFormationPDF\Introduction_Framework_DotNet.pdf
+		SupportFormationPDF\Introduction_POO.pdf = SupportFormationPDF\Introduction_POO.pdf
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
