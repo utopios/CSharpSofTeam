@@ -50,6 +50,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "FormationASspNETCore", "For
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BanqueAspNet", "BanqueAspNet\BanqueAspNet.csproj", "{ABBED517-52ED-493C-B1A0-35A1EBC725F6}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApiRestCRUDStudent", "ApiRestCRUDStudent\ApiRestCRUDStudent.csproj", "{6BFDD09B-8948-42B2-BDCD-61EF2E4E6AE7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -124,6 +126,10 @@ Global
 		{ABBED517-52ED-493C-B1A0-35A1EBC725F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{ABBED517-52ED-493C-B1A0-35A1EBC725F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{ABBED517-52ED-493C-B1A0-35A1EBC725F6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6BFDD09B-8948-42B2-BDCD-61EF2E4E6AE7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6BFDD09B-8948-42B2-BDCD-61EF2E4E6AE7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6BFDD09B-8948-42B2-BDCD-61EF2E4E6AE7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6BFDD09B-8948-42B2-BDCD-61EF2E4E6AE7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -133,6 +139,7 @@ Global
 		{8E5357DA-21E9-4ACE-BBE2-CC928571D031} = {923C2A28-BF34-4FCE-A199-135A3D044C8D}
 		{3A9EC95D-00A9-4902-97D3-B74B212FA324} = {60F46043-E07E-4DA3-A630-69AA30BD38EA}
 		{ABBED517-52ED-493C-B1A0-35A1EBC725F6} = {60F46043-E07E-4DA3-A630-69AA30BD38EA}
+		{6BFDD09B-8948-42B2-BDCD-61EF2E4E6AE7} = {60F46043-E07E-4DA3-A630-69AA30BD38EA}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {421F545D-7E4D-481A-9754-62C6BC6B3CAD}
