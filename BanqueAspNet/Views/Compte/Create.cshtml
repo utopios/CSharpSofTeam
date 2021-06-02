@@ -1,0 +1,27 @@
+﻿@model Compte
+
+<form class="container" asp-controller="Compte" asp-action="SubmitCreate">
+    @if (ViewBag.messageError != null)
+    {
+        <div class="row m-1 justify-content-center align-items-center">
+            <div class="col-6 alert alert-danger p-1">
+                @ViewBag.messageError
+            </div>
+        </div>
+    }
+    <div class="row m-1 justify-content-center align-items-center">
+        <input required type="text" asp-for="@Model.Client.Nom" class="col-6 p-1 form-control" placeholder="Nom du client" />
+    </div>
+    <div class="row m-1 justify-content-center align-items-center">
+        <input required type="text" asp-for="@Model.Client.Prenom" class="col-6 p-1 form-control" placeholder="Prénom du client" />
+    </div>
+    <div class="row m-1 justify-content-center align-items-center">
+        <input required type="text" asp-for="@Model.Client.Telephone" class="col-6 p-1 form-control" placeholder="Téléphone du client" />
+    </div>
+    <div class="row m-1 justify-content-center align-items-center">
+        <input type="number" asp-for="@Model.Solde" class="col-6 p-1 form-control" placeholder="Solde initial" />
+    </div>
+    <div class="row m-1 justify-content-center align-items-center">
+        <button class="col-6 btn btn-dark p-1" type="submit">Valider</button>
+    </div>
+</form>

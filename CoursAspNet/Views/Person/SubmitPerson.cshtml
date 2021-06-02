@@ -1,0 +1,13 @@
+﻿@model Person
+
+<div>
+    Formulaire envoyé avec les données suivantes
+</div> 
+<div>
+    Nom : @Model.LastName, Prénom : @Model.FirstName
+    @foreach (string c in ViewBag.images)
+    {
+        <img src="~/@c" />
+    }
+
+</div>

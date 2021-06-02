@@ -1,0 +1,29 @@
+﻿@model Compte
+<div class="container">
+    @if (ViewBag.message != null)
+    {
+        <div class="row m-1 justify-content-center align-items-center">
+            <div class="col-6 alert alert-success p-1">
+                @ViewBag.message
+            </div>
+        </div>
+    }
+    <form asp-controller="Compte" asp-action="Index" class="row m-1 justify-content-center align-items-center">
+        <input type="number" name="search" placeholder="Numéro de compte" class="col-6 form-control p-1" />
+        <button type="submit" class="btn btn-primary col-2 p-1">Rechercher</button>
+    </form>
+    @if (Model != null)
+    {
+        <div class="row m-1 justify-content-center align-items-center">
+            <div class="col-4">
+                Client : @Model.Client.Nom @Model.Client.Prenom @Model.Client.Telephone
+            </div>
+            <div class="col-2">
+                Solde : @Model.Solde €
+            </div>
+            <div class="col-2">
+                <a class="btn btn-outline-secondary" asp-controller="Compte" asp-action="Detail" asp-route-id="@Model.Id">Detail</a>
+            </div>
+        </div>
+    }
+</div>

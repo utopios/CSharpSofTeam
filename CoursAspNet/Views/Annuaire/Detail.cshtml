@@ -1,0 +1,34 @@
+﻿@model Contact
+@if (Model == null)
+{
+    <div class="row">
+        <div class="col alert alert-danger">
+            Aucun contact avec cet id
+        </div>
+    </div>
+}
+else
+{
+    <div class="row">
+        <div class="col">
+            <div class="row">
+                <div class="col">
+                    Nom : @Model.LastName
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    Prénom : @Model.FirstName
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    Téléphone : @Model.Phone
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <a asp-controller="Annuaire" asp-action="Index" class="btn btn-secondary col">Retour à l'accueil</a>
+    </div>
+}

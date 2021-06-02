@@ -44,6 +44,12 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SupportsFormationPDF", "Sup
 		SupportFormationPDF\Introduction_POO.pdf = SupportFormationPDF\Introduction_POO.pdf
 	EndProjectSection
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CoursAspNet", "CoursAspNet\CoursAspNet.csproj", "{3A9EC95D-00A9-4902-97D3-B74B212FA324}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "FormationASspNETCore", "FormationASspNETCore", "{60F46043-E07E-4DA3-A630-69AA30BD38EA}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BanqueAspNet", "BanqueAspNet\BanqueAspNet.csproj", "{ABBED517-52ED-493C-B1A0-35A1EBC725F6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -110,6 +116,14 @@ Global
 		{073B5CA2-8760-4A7B-899C-7803C16C5F11}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{073B5CA2-8760-4A7B-899C-7803C16C5F11}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{073B5CA2-8760-4A7B-899C-7803C16C5F11}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3A9EC95D-00A9-4902-97D3-B74B212FA324}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3A9EC95D-00A9-4902-97D3-B74B212FA324}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3A9EC95D-00A9-4902-97D3-B74B212FA324}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3A9EC95D-00A9-4902-97D3-B74B212FA324}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ABBED517-52ED-493C-B1A0-35A1EBC725F6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ABBED517-52ED-493C-B1A0-35A1EBC725F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ABBED517-52ED-493C-B1A0-35A1EBC725F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ABBED517-52ED-493C-B1A0-35A1EBC725F6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -117,6 +131,8 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{5A50E6A3-E1FF-4B50-A0B4-5CF5299F4028} = {849B7244-0D01-43DF-9220-A176EC341EF6}
 		{8E5357DA-21E9-4ACE-BBE2-CC928571D031} = {923C2A28-BF34-4FCE-A199-135A3D044C8D}
+		{3A9EC95D-00A9-4902-97D3-B74B212FA324} = {60F46043-E07E-4DA3-A630-69AA30BD38EA}
+		{ABBED517-52ED-493C-B1A0-35A1EBC725F6} = {60F46043-E07E-4DA3-A630-69AA30BD38EA}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {421F545D-7E4D-481A-9754-62C6BC6B3CAD}

@@ -1,0 +1,8 @@
+﻿<form asp-controller="Compte" asp-action="SubmitOperation" method="post">
+    <input type="hidden" name="id" value="@ViewBag.Id" />
+    <input type="hidden" name="type" value="@ViewBag.Type" />
+    <div class="row m-1 justify-content-center align-items-center">
+        <input type="number" name="montant" class="col-6 form-control p-1" placeholder="Montant de l'opération" />
+        <button type="submit" class="col-2 btn btn-secondary">Valider</button>
+    </div>
+</form>
